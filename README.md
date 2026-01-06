@@ -1,5 +1,11 @@
 # CybersecurityHomeLab
 
+<p>
+	<img src="assets/proxmox.svg" alt="Proxmox" height="40" style="vertical-align:middle; margin-right:8px;" />
+	<img src="assets/linux.svg" alt="Linux" height="40" style="vertical-align:middle; margin-right:8px;" />
+	<img src="assets/windows.svg" alt="Windows" height="40" style="vertical-align:middle;" />
+</p>
+
 ## Description
 
 This homelab project is designed to create a controlled, virtualized environment for learning and practicing cybersecurity concepts, including network security, threat detection, system hardening, and incident response. Built on Proxmox, this setup provides an isolated sandbox where security scenarios can be safely tested without affecting production systems.
