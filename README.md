@@ -13,18 +13,24 @@ This homelab project is designed to create a controlled, virtualized environment
 ## Environment: Proxmox
 
 ### Infrastructure Setup
-
+-
+- The infrastructure consists of 3 nodes.
 - Setting up a Proxmox server hosting multiple virtual machines to test virtualization, security, and routing scenarios in an isolated environment.
 - Configuring a PfSense firewall, including WAN/LAN network management and internal routing.
 - Creating and segmenting the network to isolate services using VLANs.
 - Deploying Ubuntu machines for various roles and Windows Server, including:
 	- Wazuh for monitoring and threat detection.
 	- Docker containers for application testing.
+	- Pi-hole for network-wide DNS filtering and ad blocking.
+	- WireGuard for secure VPN access to the homelab.
 
 ## Project Objectives
 
 - **Network Segmentation**: Learn and implement network isolation using VLANs and firewalls to prevent lateral movement.
+- **DNS Filtering (Pi-hole)**: Deploy Pi-hole for network-wide DNS filtering, privacy, and ad blocking.
+- **Secure Remote Access (WireGuard)**: Use WireGuard to provide lightweight, secure VPN access to the homelab.
 - **Threat Detection**: Deploy and configure Wazuh for real-time security monitoring, log analysis, and threat detection.
+- **High Availability**: Use the 3-node Proxmox cluster to test failover, resilience, and clustering scenarios.
 - **Security Testing**: Test various attack scenarios, security configurations, and defensive measures in a safe environment.
 - **System Hardening**: Practice hardening operating systems and applications to resist common vulnerabilities.
 - **Incident Response**: Simulate and respond to security incidents to develop incident response procedures.
