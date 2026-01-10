@@ -1,0 +1,11 @@
+# pfSense
+
+This directory contains configuration notes, templates, and export files related to the pfSense firewall used in the CybersecurityHomeLab.
+
+Suggested contents:
+- Backup/exported configuration XML
+- Example NAT/firewall rules
+- VLAN and interface mapping notes
+- Installation and upgrade notes
+
+Add files here to document and preserve pfSense configuration for the homelab.
